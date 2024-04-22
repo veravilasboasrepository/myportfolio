@@ -30,7 +30,7 @@ function App() {
             <img
               src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
               className="img-fluid rounded"
-              alt="image porfolio"
+              alt="imageporfolio"  rel="noreferrer"
             />
           </div>
           <div className="col">
@@ -73,13 +73,22 @@ function App() {
           <a
             href="https://github.com/veravilasboasrepository/myportfolio"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://www.instragram.com/Verah" target="_blank">
+          <a
+            href="https://www.instragram.com/Verah"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="https://www.twitter.com/Vera" target="_blank">
+          <a
+            href="https://www.twitter.com/Vera"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-twitter"></i>
           </a>
         </div>
