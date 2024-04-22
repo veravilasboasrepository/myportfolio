@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "./Navbar";
-import 
+
 
 export default App;
 function App() {
@@ -28,7 +28,7 @@ function App() {
         <div class="row mt-5 mb-5">
           <div className="col d-none d-lg-block">
             <img
-              src="images/39a386180976633.Y3JvcCwxMTc2LDkyMCw4Nyww.png"
+              src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
               className="img-fluid rounded"
               alt="image porfolio"
             />
@@ -42,7 +42,7 @@ function App() {
                 they live in Bookmarksgrove right at the coast of the Semantics,
                 a large language ocean. A small river named Duden flows by
               </p>
-              <a href="" className="btn btn-branding-outline">
+              <a href="./About.js" className="btn btn-branding-outline">
                 {" "}
                 Learn more{" "}
               </a>
@@ -58,7 +58,7 @@ function App() {
             <p className="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">
+            <a href="./contact.js" className="btn btn-branding mt-3">
               {" "}
               Contact me{" "}
             </a>
@@ -80,7 +80,7 @@ function App() {
             <i className="fab fa-instagram"></i>
           </a>
           <a href="https://www.twitter.com/Vera" target="_blank">
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </a>
         </div>
       </footer>

@@ -5,9 +5,10 @@ import "./Navbar.css"
 export default function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div className="container">
-    
-        <a className="navbar-brand" href="/" title="Homepage">Vera Vilas Boas </a>
+      <div className="container">
+        <a className="navbar-brand" href="/" title="Homepage">
+          Vera Vilas Boas{" "}
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,26 +23,26 @@ export default function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="active nav-item">
-              <a
-                className="nav-link active"
-                href="./App.js"
-                > Home </a >
+              <a className="nav-link active" href="./App.js">
+                {" "}
+                Home{" "}
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="./About.js"
-                >About me</a
-              >
-            </li>
-               <li className="nav-item">
-              <a className="nav-link" href="./Project.js"> Projects </a
-              >
+              <a className="nav-link" href="./About.js">
+                About me
+              </a>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="./About.js"
-                >Contact me</a
-              >
+              <a className="nav-link" eventKey="link-2" href="./Project.js">
+                {" "}
+                Projects{" "}
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="./About.js">
+                Contact me
+              </a>
             </li>
           </ul>
         </div>
