@@ -1,0 +1,28 @@
+.container{
+    padding: 50, 40px;
+       text-align: center;
+}
+
+.container2{
+   padding: 50, 40px;
+   text-align: center;
+}
+.active{
+  color: rgb(30, 55, 80) !important;
+}
+
+.nav-item{
+  padding:0 16px ;
+  line-height: 25px;
+  display: inline;
+}
+
+nav a:hover,
+nav li.active a {
+  color: rgb(75, 169, 163) !important ;
+}
+nav{
+ font-family:var(--default-font-family);
+ font-weight: medium;
+
+}

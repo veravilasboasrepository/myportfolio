@@ -1,38 +1,257 @@
-.App {
+:root {
+  --branding-color: rgb(159, 159, 159);
+  --secondary-color: rgb(229, 225, 225);
+  --third-color:  rgb(88, 88, 88);
+  --background-colors:  rgb(194, 177, 177);
+  --heading-font-family: 'Tajawal', sans-serif;
+  --default-font-family: 'Roboto', sans-serif;
+}
+
+app{
+      padding: 50, 40px;
+       text-align: center;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+.active{
+  color: rgb(30, 55, 80) !important;
+}
+
+.nav-item{
+  padding:0 16px ;
+  line-height: 25px;
+  display: inline;
+}
+
+nav a:hover,
+nav li.active a {
+  color: rgb(75, 169, 163) !important ;
+}
+
+h1{
+    font-size: 96px; 
+    text-align: center;
+}
+h1, h2, h3{
+   color: rgb(85, 85, 85);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+
+}
+nav{
+ font-family:var(--default-font-family);
+ font-weight: medium;
+
+}
+
+h3{
+  font-size: 24px;
+}
+
+footer{
+    padding: 400px;
+     font-family:var(--default-font-family);
+}
+
+p {
+  font-weight: normal;
+ color: var(--branding-color);
+ line-height: 1.5;
+}
+
+.titles {
+  background: var(--background-colors);
+  padding: 50px 20px;
+}
+
+.titles p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  color: var(--branding-color);
+}
+
+
+
+.btn-branding{
+        width: 200px;
+color: rgb(59, 59, 59);
+    border-radius: 50px;
+text-align: center;
+    padding: 18, 30, 18, 30px;
+
+}
+
+
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 50px;
+  font-family: var(--heading-font-family);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+.btn-branding:hover{
+    color: var(--third-color);
+}
+a{
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+      font-size: 34px;
+    line-height: 2;
+    text-align: center;
+
+  }
+   h2 {
+    font-size: 24px;
+  }
+
+    h3 {
+    font-size: 18px;
+  }
+
+.description{
+    text-align: left;
+        padding: 80px 20px;
+}
+  .project-desciption {
+    padding: 0;
+    text-align: left;
+  }
+
+p{
+      padding: 0;
+    text-align: left;
+}
+    .footer {
+    display: none;
+  }
+ 
+}
+@media (min-width: 900px) {
+  h1 {
+    color: rgb(127, 96, 96);
+  }
+
+  
+
+}
+
+.btn-branding-outline{
+     color: rgb(120, 80, 80);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+  border: 1px solid var(--branding-color);
+  border-radius: 40px;
+  
+}
+.description{
+    padding: 120 px 60x;
+}
+
+.content-container  h1{
+  font-size: 64px;
+  line-height: 80px
+   ;
+}
+.content-container{
+  padding: 60px 20px;
+    padding: 50, 40px;
+   text-align: center;
+}
+
+.content-container h2{
+  font-size: 18px;
+  font-family: var(--default-font-family);
+    padding: 50, 40px;
+   text-align: center;
+}
+
+
+.content{
+  margin: 30px;
+}
+
+.content h3{
+ font-size: 24px;
+ line-height: 1.5;
+ font-family: var(--heading-font-family);
+margin: 20px;
+}
+
+.content h1{
+ font-size: 32px;
+ line-height: 1.5;
+ text-align: left;
+ font-family: var(--heading-font-family);
+margin: 20px;
+}
+.content p{
+  font-size: 14px;
+  text-align: left;
+}
+
+.projectlink{
+  padding: 16px;
+}
+.btn-branding{
+  color: rgb(100, 96, 100);
+  background-color: rgb(241, 241, 241);
+  border: none;
+box-shadow: rgb(118, 111, 115);
+border-radius: 1px;
+
+}
+
+
+footer {
+  margin: 0px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer .contact-box p {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background: var(--branding-color);
 }
