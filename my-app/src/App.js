@@ -71,7 +71,7 @@ function App() {
         </div>
         <div className="social-links d-flex justify-content-center">
           <a
-            href="https://github.com/Verahvilasboas/my-portfolio"
+            href="https://github.com/veravilasboasrepository/myportfolio"
             target="_blank"
           >
             <i className="fab fa-github"></i>
