@@ -16,8 +16,8 @@ function App() {
         />
       </header>
       <div>
-        <Route path="/page1" component={Page1} />
-        <Route path="/page2" component={Page2} />
+        <Route path="/page1" component={About} />
+        <Route path="/page2" component={Project} />
       </div>
 
       <main>

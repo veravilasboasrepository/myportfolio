@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import ImageGallery from "./ImageGallery.js";
 
-export default Project;
-function Project() {
+export default About;
+function About() {
   return (
     <div>
       {" "}
