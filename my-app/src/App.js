@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "./Navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 export default App;
 function App() {
@@ -15,13 +15,11 @@ function App() {
           alt="logo"
         />
       </header>
-      <Router>
-        <div>
-          <NavBar />
-          <Route path="/dashboard" component={Dashboard} />
-        </div>
-      </Router>
-   
+      <div>
+        <Route path="/page1" component={Page1} />
+        <Route path="/page2" component={Page2} />
+      </div>
+
       <main>
         <div className="container">
           <h1>👋 Hello, I'm</h1>
