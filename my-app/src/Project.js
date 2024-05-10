@@ -8,8 +8,8 @@ import ImageGallery from "./ImageGallery.js";
 export default Project;
 function Project() {
   return (
-
-<ImageGallery/>
-
+    <div>
+      <ImageGallery />
+    </div>
   );
 }
