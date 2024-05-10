@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 export default ImageGallery
 function ImageGallery() {
   return (
+
     <div
       id="carouselExampleControls"
       className="carousel slide"

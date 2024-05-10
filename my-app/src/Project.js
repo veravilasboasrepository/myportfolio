@@ -8,7 +8,7 @@ import ImageGallery from "./ImageGallery.js";
 export default Project;
 function Project() {
   return (
-    <div>
+    <div> <p> ola tudo bem </p>
       <ImageGallery />
     </div>
   );
