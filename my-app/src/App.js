@@ -3,6 +3,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "./Navbar";
 import { Route } from "react-router-dom";
+import About from "./about";
+import Project from "./Project"
 
 export default App;
 function App() {
@@ -15,9 +17,11 @@ function App() {
           alt="logo"
         />
       </header>
+
       <div>
-        <Route path="/page1" component={About} />
-        <Route path="/page2" component={Project} />
+        <Navbar/>
+        <Route path="/About" component={About} />
+        <Route path="/Project" component={Project} />
       </div>
 
       <main>

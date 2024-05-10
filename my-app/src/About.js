@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import "bootstrap/dist/css/bootstrap.css";
-
 import ImageGallery from "./ImageGallery.js";
 
 export default About;
